@@ -1,0 +1,11 @@
+virtualenv envP1
+source ./envP1/bin/activate
+pip install django
+django-admin.py startproject django_bookmarks
+git init
+git add .
+git config --global user.email "arturas.acus@tfai.vu.lt"
+git config --global user.name "acus"
+
+git remote add origin https://github.com/ArturasAcus/PythonProjects.git
+git push -u origin master
